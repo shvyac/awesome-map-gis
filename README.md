@@ -19,7 +19,7 @@
 ## mapbox
 - https://www.mapbox.com/
 
-# Google Maps Platform  
+## Google Maps Platform  
 - https://developers.google.com/maps?hl=ja
 
 ## 地理院タイル一覧
