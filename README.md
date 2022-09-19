@@ -16,7 +16,7 @@
 ## Bing Maps Dev Center 
 - https://www.bingmapsportal.com/
 
-## MapBox
+## Mapbox
 - https://www.mapbox.com/
 
 ## Google Maps Platform  
