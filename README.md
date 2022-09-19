@@ -1,9 +1,9 @@
 # awesome-map-gis
 
-## openstreetmap
+## OpenStreetMap
 - https://github.com/osmlab/awesome-openstreetmap
 
-## arcgis
+## ArcGIS
 - https://github.com/Esri/awesome-arcgis-developer
 
 ## MapWindow Open Source GIS
@@ -16,7 +16,7 @@
 ## Bing Maps Dev Center 
 - https://www.bingmapsportal.com/
 
-## mapbox
+## MapBox
 - https://www.mapbox.com/
 
 ## Google Maps Platform  
