@@ -16,16 +16,18 @@ Crowd-sourced world map data, editing tools, and extracts. Start here for free b
 ## Desktop GIS
 
 ### QGIS
-Leading free/open-source desktop GIS — editing, cartography, analysis, and a large plugin ecosystem.
+Leading free/open-source desktop GIS — editing, cartography, analysis, and a large plugin ecosystem. QGIS 4.0 (Qt6-based) was released in March 2026.
 
 - https://qgis.org/
 - https://docs.qgis.org/
 - https://github.com/qgis/QGIS
+- https://changelog.qgis.org/ — release changelogs (incl. 4.0)
 
-### GRASS GIS
-OSGeo raster/vector analysis suite; also available via QGIS Processing.
+### GRASS (formerly GRASS GIS)
+OSGeo raster/vector analysis suite, rebranded as “GRASS” in 2025 (current series 8.5); also available via QGIS Processing.
 
 - https://grass.osgeo.org/
+- https://github.com/OSGeo/grass
 
 ### MapWindow Open Source GIS
 Windows-friendly open-source GIS desktop and related projects.
@@ -103,6 +105,12 @@ Client-side geospatial analysis in JavaScript.
 
 - https://turfjs.org/
 
+### Lonboard
+Fast, interactive deck.gl-based vector data visualization in Jupyter, built on GeoArrow/GeoParquet.
+
+- https://developmentseed.org/lonboard/latest/
+- https://github.com/developmentseed/lonboard
+
 ## Spatial data stack
 
 ### GDAL / OGR
@@ -115,6 +123,11 @@ Swiss-army knife for raster/vector format conversion and processing.
 Spatial extension for PostgreSQL — storage, indexes, and spatial SQL.
 
 - https://postgis.net/
+
+### DuckDB Spatial
+In-process spatial SQL for DuckDB — reads GeoParquet, GDAL formats, and remote files without a server.
+
+- https://duckdb.org/docs/current/core_extensions/spatial/overview
 
 ### PROJ
 Coordinate reference systems and transformations.
@@ -132,11 +145,12 @@ GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks.
 - https://geopandas.org/
 - https://shapely.readthedocs.io/
 - https://rasterio.readthedocs.io/
-- https://python-visualization.github.io/folium/
+- https://python-visualization.github.io/folium/latest/
 
 ### Formats & tiling
 
 - https://geojson.org/ — GeoJSON
+- https://geoparquet.org/ — GeoParquet, columnar geospatial format on Apache Parquet (v2.0 in release-candidate stage)
 - https://pmtiles.io/ — single-file PMTiles archives
 - https://protomaps.com/ — open map tiles on PMTiles
 - https://h3geo.org/ — Uber H3 hexagonal hierarchical grid
@@ -159,6 +173,8 @@ GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks.
 
 ## Open data & imagery
 
+- https://overturemaps.org/ — Overture Maps Foundation: open global map data (buildings, places, transportation, etc.) distributed as GeoParquet
+- https://docs.overturemaps.org/ — Overture schema, release notes, and access guides
 - https://www.naturalearthdata.com/ — Natural Earth public-domain cultural/physical data
 - https://opentopography.org/ — high-res topography / DEM access
 - https://www.gebco.net/ — GEBCO bathymetry
@@ -174,9 +190,8 @@ XAML Map Control for WPF / UWP / WinUI map UI.
 
 ## Standards & community
 
-- https://www.ogc.org/ — Open Geospatial Consortium (OGC)
-- https://www.opengeospatial.org/
-- https://felt.com/ — collaborative web mapping product
+- https://www.ogc.org/ — Open Geospatial Consortium (OGC) (formerly opengeospatial.org, which now redirects here)
+- https://felt.com/ — cloud-native, collaborative GIS platform for maps, apps, and dashboards
 
 ## Related awesome lists
 
