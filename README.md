@@ -2,6 +2,8 @@
 
 Useful maps / GIS tools and resources — desktop GIS, web mapping libraries, open data, cloud platforms, and Japan-focused geospatial services.
 
+⭐ badges show live GitHub star counts (via shields.io). Release badges show the latest GitHub release version and date.
+
 ## OpenStreetMap
 
 Crowd-sourced world map data, editing tools, and extracts. Start here for free basemap data and community tooling.
@@ -11,7 +13,7 @@ Crowd-sourced world map data, editing tools, and extracts. Start here for free b
 - https://overpass-turbo.eu/ — interactive Overpass API query editor
 - https://www.geofabrik.de/data/download.html — regional OSM extracts
 - https://nominatim.org/ — OSM-based geocoding
-- https://github.com/osmlab/awesome-openstreetmap
+- https://github.com/osmlab/awesome-openstreetmap ![GitHub stars](https://img.shields.io/github/stars/osmlab/awesome-openstreetmap?style=flat&label=%E2%AD%90)
 
 ## Desktop GIS
 
@@ -20,21 +22,21 @@ Leading free/open-source desktop GIS — editing, cartography, analysis, and a l
 
 - https://qgis.org/
 - https://docs.qgis.org/
-- https://github.com/qgis/QGIS
+- https://github.com/qgis/QGIS ![GitHub stars](https://img.shields.io/github/stars/qgis/QGIS?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/qgis/QGIS?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/qgis/QGIS?style=flat&label=released)
 - https://changelog.qgis.org/ — release changelogs (4.x series)
 
 ### GRASS (formerly GRASS GIS)
-OSGeo raster/vector analysis suite, rebranded as “GRASS” in 2025 (current series 8.5); also available via QGIS Processing.
+OSGeo raster/vector analysis suite, rebranded as “GRASS” in 2025 (current series 8.5; 8.5.0 released May 2026); also available via QGIS Processing.
 
 - https://grass.osgeo.org/
-- https://github.com/OSGeo/grass
+- https://github.com/OSGeo/grass ![GitHub stars](https://img.shields.io/github/stars/OSGeo/grass?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/OSGeo/grass?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/OSGeo/grass?style=flat&label=released)
 
 ### MapWindow Open Source GIS
 Windows-friendly open-source GIS desktop and related projects. The website is no longer actively updated (last copyright 2022); downloads and code are on GitHub.
 
 - https://www.mapwindow.org/
 - https://github.com/MapWindow
-- https://github.com/MapWindow/MapWindow5
+- https://github.com/MapWindow/MapWindow5 ![GitHub stars](https://img.shields.io/github/stars/MapWindow/MapWindow5?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/MapWindow/MapWindow5?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/MapWindow/MapWindow5?style=flat&label=released)
 
 ## ArcGIS / Esri
 
@@ -42,7 +44,7 @@ Commercial GIS platform (desktop, online, developer APIs) and community awesome 
 
 - https://developers.arcgis.com/
 - https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview
-- https://github.com/Esri/awesome-arcgis-developers
+- https://github.com/Esri/awesome-arcgis-developers ![GitHub stars](https://img.shields.io/github/stars/Esri/awesome-arcgis-developers?style=flat&label=%E2%AD%90)
 
 ## Cloud & commercial map platforms
 
@@ -71,6 +73,12 @@ Hosted or self-hostable basemap tiles and styles.
 - https://openmaptiles.org/
 - https://stadiamaps.com/
 - https://www.thunderforest.com/
+
+### OpenFreeMap
+Free, open-source hosting of OpenStreetMap vector tiles and styles for MapLibre — public instance with no API key or registration, weekly planet updates, or self-host the whole stack.
+
+- https://openfreemap.org/
+- https://github.com/hyperknot/openfreemap ![GitHub stars](https://img.shields.io/github/stars/hyperknot/openfreemap?style=flat&label=%E2%AD%90)
 
 ## Web mapping libraries
 
@@ -110,7 +118,7 @@ Client-side geospatial analysis in JavaScript.
 Fast, interactive deck.gl-based vector data visualization in Jupyter, built on GeoArrow/GeoParquet.
 
 - https://developmentseed.org/lonboard/latest/
-- https://github.com/developmentseed/lonboard
+- https://github.com/developmentseed/lonboard ![GitHub stars](https://img.shields.io/github/stars/developmentseed/lonboard?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/developmentseed/lonboard?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/developmentseed/lonboard?style=flat&label=released)
 
 ## Spatial data stack
 
@@ -118,7 +126,7 @@ Fast, interactive deck.gl-based vector data visualization in Jupyter, built on G
 Swiss-army knife for raster/vector format conversion and processing.
 
 - https://gdal.org/
-- https://github.com/OSGeo/gdal
+- https://github.com/OSGeo/gdal ![GitHub stars](https://img.shields.io/github/stars/OSGeo/gdal?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/OSGeo/gdal?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/OSGeo/gdal?style=flat&label=released)
 
 ### PostGIS
 Spatial extension for PostgreSQL — storage, indexes, and spatial SQL.
@@ -134,7 +142,7 @@ In-process spatial SQL for DuckDB — reads GeoParquet, GDAL formats, and remote
 Spatial processing at any scale — SedonaDB (single-node), SedonaSpark, SedonaFlink, and SedonaSnow (Snowflake); vector and raster SQL/Python APIs.
 
 - https://sedona.apache.org/
-- https://github.com/apache/sedona
+- https://github.com/apache/sedona ![GitHub stars](https://img.shields.io/github/stars/apache/sedona?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/apache/sedona?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/apache/sedona?style=flat&label=released)
 
 ### PROJ
 Coordinate reference systems and transformations.
@@ -145,6 +153,12 @@ Coordinate reference systems and transformations.
 Open-source server for OGC services (WMS, WFS, WMTS, and more).
 
 - https://geoserver.org/
+
+### Martin
+Fast Rust vector-tile server from the MapLibre project — serves PostGIS tables/functions, PMTiles, MBTiles, COG, GeoJSON, and GeoParquet; includes `martin-cp` for tile generation and `mbtiles` tooling.
+
+- https://maplibre.org/martin/
+- https://github.com/maplibre/martin ![GitHub stars](https://img.shields.io/github/stars/maplibre/martin?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/maplibre/martin?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/maplibre/martin?style=flat&label=released)
 
 ### Python geospatial
 GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks.
@@ -164,6 +178,8 @@ GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks.
 - https://protomaps.com/ — open map tiles on PMTiles
 - https://maplibre.org/maplibre-tile-spec/ — MapLibre Tile (MLT): column-oriented vector tile format, successor to MVT (announced Jan 2026; supported in MapLibre GL JS / Native)
 - https://h3geo.org/ — Uber H3 hexagonal hierarchical grid
+- https://stacspec.org/ — STAC (SpatioTemporal Asset Catalog): common JSON spec for describing and searching satellite imagery and other geospatial assets (v1.1; also an OGC Community Standard)
+- https://github.com/radiantearth/stac-spec ![GitHub stars](https://img.shields.io/github/stars/radiantearth/stac-spec?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/radiantearth/stac-spec?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/radiantearth/stac-spec?style=flat&label=released)
 
 ## Japan / 日本の地理空間情報
 
@@ -189,6 +205,8 @@ GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks.
 - https://www.naturalearthdata.com/ — Natural Earth public-domain cultural/physical data
 - https://opentopography.org/ — high-res topography / DEM access
 - https://www.gebco.net/ — GEBCO bathymetry
+- https://mapterhorn.com/ — Mapterhorn: open-data global terrain (elevation) tiles distributed as PMTiles for web maps (MapLibre terrain / hillshading)
+- https://github.com/mapterhorn/mapterhorn ![GitHub stars](https://img.shields.io/github/stars/mapterhorn/mapterhorn?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/mapterhorn/mapterhorn?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/mapterhorn/mapterhorn?style=flat&label=released)
 - https://earthengine.google.com/ — Google Earth Engine
 - https://developers.google.com/earth-engine
 - https://www.hotosm.org/ — Humanitarian OpenStreetMap Team
@@ -197,7 +215,7 @@ GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks.
 
 XAML Map Control for WPF / UWP / WinUI map UI.
 
-- https://github.com/ClemensFischer/XAML-Map-Control
+- https://github.com/ClemensFischer/XAML-Map-Control ![GitHub stars](https://img.shields.io/github/stars/ClemensFischer/XAML-Map-Control?style=flat&label=%E2%AD%90)
 
 ## Standards & community
 
@@ -206,5 +224,27 @@ XAML Map Control for WPF / UWP / WinUI map UI.
 
 ## Related awesome lists
 
-- https://github.com/osmlab/awesome-openstreetmap
-- https://github.com/Esri/awesome-arcgis-developers
+- https://github.com/osmlab/awesome-openstreetmap ![GitHub stars](https://img.shields.io/github/stars/osmlab/awesome-openstreetmap?style=flat&label=%E2%AD%90)
+- https://github.com/Esri/awesome-arcgis-developers ![GitHub stars](https://img.shields.io/github/stars/Esri/awesome-arcgis-developers?style=flat&label=%E2%AD%90)
+
+## shvyac's awesome lists
+
+All curated lists maintained by [shvyac](https://github.com/shvyac):
+
+- [awesome-hamradio](https://github.com/shvyac/awesome-hamradio) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-hamradio?style=flat&label=%E2%AD%90)
+- [awesome-cad-cae](https://github.com/shvyac/awesome-cad-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cad-cae?style=flat&label=%E2%AD%90)
+- [awesome-map-gis](https://github.com/shvyac/awesome-map-gis) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-map-gis?style=flat&label=%E2%AD%90)
+- [awesome-ballroom-dance](https://github.com/shvyac/awesome-ballroom-dance) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ballroom-dance?style=flat&label=%E2%AD%90)
+- [awesome-ghost-artists](https://github.com/shvyac/awesome-ghost-artists) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ghost-artists?style=flat&label=%E2%AD%90)
+- [awesome-audio-softwares](https://github.com/shvyac/awesome-audio-softwares) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-audio-softwares?style=flat&label=%E2%AD%90)
+- [awesome-online-services](https://github.com/shvyac/awesome-online-services) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-online-services?style=flat&label=%E2%AD%90)
+- [awesome-trading-stock](https://github.com/shvyac/awesome-trading-stock) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-trading-stock?style=flat&label=%E2%AD%90)
+- [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90)
+- [awesome-m5stack-arduino](https://github.com/shvyac/awesome-m5stack-arduino) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-m5stack-arduino?style=flat&label=%E2%AD%90)
+- [awesome-AI-Powered-Executive-Dashboards](https://github.com/shvyac/awesome-AI-Powered-Executive-Dashboards) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-AI-Powered-Executive-Dashboards?style=flat&label=%E2%AD%90)
+- [awesome-ai-tool-for-mechanical-engineering](https://github.com/shvyac/awesome-ai-tool-for-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-tool-for-mechanical-engineering?style=flat&label=%E2%AD%90)
+- [awesome-local-llm](https://github.com/shvyac/awesome-local-llm) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-local-llm?style=flat&label=%E2%AD%90)
+- [awesome-redmine-ai](https://github.com/shvyac/awesome-redmine-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-redmine-ai?style=flat&label=%E2%AD%90)
+- [awesome-dashboards-visualization](https://github.com/shvyac/awesome-dashboards-visualization) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-dashboards-visualization?style=flat&label=%E2%AD%90)
+- [awesome-osint-ai](https://github.com/shvyac/awesome-osint-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-osint-ai?style=flat&label=%E2%AD%90)
+- [awesome-cms-ai](https://github.com/shvyac/awesome-cms-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cms-ai?style=flat&label=%E2%AD%90)
