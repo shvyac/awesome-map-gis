@@ -4,7 +4,7 @@
 
 Useful maps / GIS tools and resources — desktop GIS, web mapping libraries, open data, cloud platforms, and Japan-focused geospatial services.
 
-⭐ badges show live GitHub star counts (via shields.io). Release badges show the latest GitHub release version and date.
+⭐ badges show live GitHub star counts (via shields.io).
 
 ## OpenStreetMap
 
@@ -24,21 +24,21 @@ Leading free/open-source desktop GIS — editing, cartography, analysis, and a l
 
 - https://qgis.org/
 - https://docs.qgis.org/
-- https://github.com/qgis/QGIS ![GitHub stars](https://img.shields.io/github/stars/qgis/QGIS?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/qgis/QGIS?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/qgis/QGIS?style=flat&label=released)
+- https://github.com/qgis/QGIS ![GitHub stars](https://img.shields.io/github/stars/qgis/QGIS?style=flat&label=%E2%AD%90)
 - https://changelog.qgis.org/ — release changelogs (4.x series)
 
 ### GRASS (formerly GRASS GIS)
 OSGeo raster/vector analysis suite, rebranded as “GRASS” in 2025 (current series 8.5; 8.5.0 released May 2026); also available via QGIS Processing.
 
 - https://grass.osgeo.org/
-- https://github.com/OSGeo/grass ![GitHub stars](https://img.shields.io/github/stars/OSGeo/grass?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/OSGeo/grass?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/OSGeo/grass?style=flat&label=released)
+- https://github.com/OSGeo/grass ![GitHub stars](https://img.shields.io/github/stars/OSGeo/grass?style=flat&label=%E2%AD%90)
 
 ### MapWindow Open Source GIS
 Windows-friendly open-source GIS desktop and related projects. The website is no longer actively updated (last copyright 2022); downloads and code are on GitHub.
 
 - https://www.mapwindow.org/
 - https://github.com/MapWindow
-- https://github.com/MapWindow/MapWindow5 ![GitHub stars](https://img.shields.io/github/stars/MapWindow/MapWindow5?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/MapWindow/MapWindow5?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/MapWindow/MapWindow5?style=flat&label=released)
+- https://github.com/MapWindow/MapWindow5 ![GitHub stars](https://img.shields.io/github/stars/MapWindow/MapWindow5?style=flat&label=%E2%AD%90)
 
 ## ArcGIS / Esri
 
@@ -120,7 +120,7 @@ Client-side geospatial analysis in JavaScript.
 Fast, interactive deck.gl-based vector data visualization in Jupyter, built on GeoArrow/GeoParquet.
 
 - https://developmentseed.org/lonboard/latest/
-- https://github.com/developmentseed/lonboard ![GitHub stars](https://img.shields.io/github/stars/developmentseed/lonboard?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/developmentseed/lonboard?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/developmentseed/lonboard?style=flat&label=released)
+- https://github.com/developmentseed/lonboard ![GitHub stars](https://img.shields.io/github/stars/developmentseed/lonboard?style=flat&label=%E2%AD%90)
 
 ## Spatial data stack
 
@@ -128,7 +128,7 @@ Fast, interactive deck.gl-based vector data visualization in Jupyter, built on G
 Swiss-army knife for raster/vector format conversion and processing.
 
 - https://gdal.org/
-- https://github.com/OSGeo/gdal ![GitHub stars](https://img.shields.io/github/stars/OSGeo/gdal?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/OSGeo/gdal?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/OSGeo/gdal?style=flat&label=released)
+- https://github.com/OSGeo/gdal ![GitHub stars](https://img.shields.io/github/stars/OSGeo/gdal?style=flat&label=%E2%AD%90)
 
 ### PostGIS
 Spatial extension for PostgreSQL — storage, indexes, and spatial SQL.
@@ -144,7 +144,7 @@ In-process spatial SQL for DuckDB — reads GeoParquet, GDAL formats, and remote
 Spatial processing at any scale — SedonaDB (single-node), SedonaSpark, SedonaFlink, and SedonaSnow (Snowflake); vector and raster SQL/Python APIs.
 
 - https://sedona.apache.org/
-- https://github.com/apache/sedona ![GitHub stars](https://img.shields.io/github/stars/apache/sedona?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/apache/sedona?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/apache/sedona?style=flat&label=released)
+- https://github.com/apache/sedona ![GitHub stars](https://img.shields.io/github/stars/apache/sedona?style=flat&label=%E2%AD%90)
 
 ### PROJ
 Coordinate reference systems and transformations.
@@ -160,7 +160,7 @@ Open-source server for OGC services (WMS, WFS, WMTS, and more).
 Fast Rust vector-tile server from the MapLibre project — serves PostGIS tables/functions, PMTiles, MBTiles, COG, GeoJSON, and GeoParquet; includes `martin-cp` for tile generation and `mbtiles` tooling.
 
 - https://maplibre.org/martin/
-- https://github.com/maplibre/martin ![GitHub stars](https://img.shields.io/github/stars/maplibre/martin?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/maplibre/martin?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/maplibre/martin?style=flat&label=released)
+- https://github.com/maplibre/martin ![GitHub stars](https://img.shields.io/github/stars/maplibre/martin?style=flat&label=%E2%AD%90)
 
 ### Python geospatial
 GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks.
@@ -181,7 +181,7 @@ GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks.
 - https://maplibre.org/maplibre-tile-spec/ — MapLibre Tile (MLT): column-oriented vector tile format, successor to MVT (announced Jan 2026; supported in MapLibre GL JS / Native)
 - https://h3geo.org/ — Uber H3 hexagonal hierarchical grid
 - https://stacspec.org/ — STAC (SpatioTemporal Asset Catalog): common JSON spec for describing and searching satellite imagery and other geospatial assets (v1.1; also an OGC Community Standard)
-- https://github.com/radiantearth/stac-spec ![GitHub stars](https://img.shields.io/github/stars/radiantearth/stac-spec?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/radiantearth/stac-spec?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/radiantearth/stac-spec?style=flat&label=released)
+- https://github.com/radiantearth/stac-spec ![GitHub stars](https://img.shields.io/github/stars/radiantearth/stac-spec?style=flat&label=%E2%AD%90)
 
 ## Japan / 日本の地理空間情報
 
@@ -208,7 +208,7 @@ GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks.
 - https://opentopography.org/ — high-res topography / DEM access
 - https://www.gebco.net/ — GEBCO bathymetry
 - https://mapterhorn.com/ — Mapterhorn: open-data global terrain (elevation) tiles distributed as PMTiles for web maps (MapLibre terrain / hillshading)
-- https://github.com/mapterhorn/mapterhorn ![GitHub stars](https://img.shields.io/github/stars/mapterhorn/mapterhorn?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/mapterhorn/mapterhorn?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/mapterhorn/mapterhorn?style=flat&label=released)
+- https://github.com/mapterhorn/mapterhorn ![GitHub stars](https://img.shields.io/github/stars/mapterhorn/mapterhorn?style=flat&label=%E2%AD%90)
 - https://earthengine.google.com/ — Google Earth Engine
 - https://developers.google.com/earth-engine
 - https://www.hotosm.org/ — Humanitarian OpenStreetMap Team

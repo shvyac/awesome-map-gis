@@ -4,7 +4,7 @@
 
 地図・GIS の便利なツールとリソース集 — デスクトップ GIS、Web 地図ライブラリ、オープンデータ、クラウドプラットフォーム、日本向けの地理空間情報サービス。
 
-⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。リリースバッジは最新リリースの版数と日付を表示します。
+⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。
 
 ## OpenStreetMap
 
@@ -24,21 +24,21 @@
 
 - https://qgis.org/
 - https://docs.qgis.org/
-- https://github.com/qgis/QGIS ![GitHub stars](https://img.shields.io/github/stars/qgis/QGIS?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/qgis/QGIS?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/qgis/QGIS?style=flat&label=released)
+- https://github.com/qgis/QGIS ![GitHub stars](https://img.shields.io/github/stars/qgis/QGIS?style=flat&label=%E2%AD%90)
 - https://changelog.qgis.org/ — リリース変更履歴（4.x 系）
 
 ### GRASS（旧 GRASS GIS）
 OSGeo のラスター／ベクター解析スイート。2025年に「GRASS」へ名称変更（現行 8.5 系、8.5.0 は 2026年5月リリース）。QGIS の Processing からも利用可能。
 
 - https://grass.osgeo.org/
-- https://github.com/OSGeo/grass ![GitHub stars](https://img.shields.io/github/stars/OSGeo/grass?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/OSGeo/grass?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/OSGeo/grass?style=flat&label=released)
+- https://github.com/OSGeo/grass ![GitHub stars](https://img.shields.io/github/stars/OSGeo/grass?style=flat&label=%E2%AD%90)
 
 ### MapWindow Open Source GIS
 Windows で使いやすいオープンソースのデスクトップ GIS と関連プロジェクト。Web サイトは更新が止まっている（最終コピーライト 2022年）。ダウンロードとコードは GitHub にある。
 
 - https://www.mapwindow.org/
 - https://github.com/MapWindow
-- https://github.com/MapWindow/MapWindow5 ![GitHub stars](https://img.shields.io/github/stars/MapWindow/MapWindow5?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/MapWindow/MapWindow5?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/MapWindow/MapWindow5?style=flat&label=released)
+- https://github.com/MapWindow/MapWindow5 ![GitHub stars](https://img.shields.io/github/stars/MapWindow/MapWindow5?style=flat&label=%E2%AD%90)
 
 ## ArcGIS / Esri
 
@@ -120,7 +120,7 @@ JavaScript によるクライアントサイドの地理空間解析。
 GeoArrow/GeoParquet を基盤とした、Jupyter 上で高速・インタラクティブな deck.gl ベースのベクターデータ可視化。
 
 - https://developmentseed.org/lonboard/latest/
-- https://github.com/developmentseed/lonboard ![GitHub stars](https://img.shields.io/github/stars/developmentseed/lonboard?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/developmentseed/lonboard?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/developmentseed/lonboard?style=flat&label=released)
+- https://github.com/developmentseed/lonboard ![GitHub stars](https://img.shields.io/github/stars/developmentseed/lonboard?style=flat&label=%E2%AD%90)
 
 ## 空間データスタック
 
@@ -128,7 +128,7 @@ GeoArrow/GeoParquet を基盤とした、Jupyter 上で高速・インタラク�
 ラスター／ベクターの形式変換と処理の万能ツール。
 
 - https://gdal.org/
-- https://github.com/OSGeo/gdal ![GitHub stars](https://img.shields.io/github/stars/OSGeo/gdal?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/OSGeo/gdal?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/OSGeo/gdal?style=flat&label=released)
+- https://github.com/OSGeo/gdal ![GitHub stars](https://img.shields.io/github/stars/OSGeo/gdal?style=flat&label=%E2%AD%90)
 
 ### PostGIS
 PostgreSQL の空間拡張 — 格納、インデックス、空間 SQL。
@@ -144,7 +144,7 @@ DuckDB のインプロセス空間 SQL — サーバー不要で GeoParquet、GD
 あらゆる規模の空間処理 — SedonaDB（シングルノード）、SedonaSpark、SedonaFlink、SedonaSnow（Snowflake）。ベクター／ラスターの SQL・Python API。
 
 - https://sedona.apache.org/
-- https://github.com/apache/sedona ![GitHub stars](https://img.shields.io/github/stars/apache/sedona?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/apache/sedona?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/apache/sedona?style=flat&label=released)
+- https://github.com/apache/sedona ![GitHub stars](https://img.shields.io/github/stars/apache/sedona?style=flat&label=%E2%AD%90)
 
 ### PROJ
 座標参照系と座標変換。
@@ -160,7 +160,7 @@ OGC サービス（WMS、WFS、WMTS など）を提供するオープンソー�
 MapLibre プロジェクトの高速な Rust 製ベクタータイルサーバー — PostGIS のテーブル／関数、PMTiles、MBTiles、COG、GeoJSON、GeoParquet を配信。タイル生成用の `martin-cp` と `mbtiles` ツールも同梱。
 
 - https://maplibre.org/martin/
-- https://github.com/maplibre/martin ![GitHub stars](https://img.shields.io/github/stars/maplibre/martin?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/maplibre/martin?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/maplibre/martin?style=flat&label=released)
+- https://github.com/maplibre/martin ![GitHub stars](https://img.shields.io/github/stars/maplibre/martin?style=flat&label=%E2%AD%90)
 
 ### Python 地理空間ライブラリ
 解析や手軽な地図ノートブック向けの GeoPandas、Shapely、Rasterio、Folium。
@@ -181,7 +181,7 @@ MapLibre プロジェクトの高速な Rust 製ベクタータイルサーバ�
 - https://maplibre.org/maplibre-tile-spec/ — MapLibre Tile（MLT）：MVT の後継となる列指向ベクタータイル形式（2026年1月発表、MapLibre GL JS / Native が対応）
 - https://h3geo.org/ — Uber H3 六角形階層グリッド
 - https://stacspec.org/ — STAC（SpatioTemporal Asset Catalog）：衛星画像などの地理空間アセットを記述・検索するための共通 JSON 仕様（v1.1、OGC Community Standard でもある）
-- https://github.com/radiantearth/stac-spec ![GitHub stars](https://img.shields.io/github/stars/radiantearth/stac-spec?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/radiantearth/stac-spec?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/radiantearth/stac-spec?style=flat&label=released)
+- https://github.com/radiantearth/stac-spec ![GitHub stars](https://img.shields.io/github/stars/radiantearth/stac-spec?style=flat&label=%E2%AD%90)
 
 ## 日本の地理空間情報
 
@@ -208,7 +208,7 @@ MapLibre プロジェクトの高速な Rust 製ベクタータイルサーバ�
 - https://opentopography.org/ — 高解像度地形データ／DEM へのアクセス
 - https://www.gebco.net/ — GEBCO 海底地形
 - https://mapterhorn.com/ — Mapterhorn：Web 地図向けに PMTiles で配布される全球のオープン地形（標高）タイル（MapLibre の地形表示・陰影起伏）
-- https://github.com/mapterhorn/mapterhorn ![GitHub stars](https://img.shields.io/github/stars/mapterhorn/mapterhorn?style=flat&label=%E2%AD%90) ![GitHub release](https://img.shields.io/github/v/release/mapterhorn/mapterhorn?style=flat&label=release) ![GitHub release date](https://img.shields.io/github/release-date/mapterhorn/mapterhorn?style=flat&label=released)
+- https://github.com/mapterhorn/mapterhorn ![GitHub stars](https://img.shields.io/github/stars/mapterhorn/mapterhorn?style=flat&label=%E2%AD%90)
 - https://earthengine.google.com/ — Google Earth Engine
 - https://developers.google.com/earth-engine
 - https://www.hotosm.org/ — Humanitarian OpenStreetMap Team
