@@ -1,5 +1,7 @@
 # awesome-map-gis
 
+[日本語 README](README.ja.md)
+
 Useful maps / GIS tools and resources — desktop GIS, web mapping libraries, open data, cloud platforms, and Japan-focused geospatial services.
 
 ⭐ badges show live GitHub star counts (via shields.io). Release badges show the latest GitHub release version and date.
