@@ -202,6 +202,8 @@ GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks.
 
 ## Open data & imagery
 
+- https://koreaves.com/gis/ — KoreAves: free South Korean bird occurrence evidence explorer with linked source records and regional maps (English/Korean; observational sampling limitations apply)
+
 - https://overturemaps.org/ — Overture Maps Foundation: open global map data (buildings, places, transportation, etc.) distributed as GeoParquet
 - https://docs.overturemaps.org/ — Overture schema, release notes, and access guides
 - https://www.naturalearthdata.com/ — Natural Earth public-domain cultural/physical data
