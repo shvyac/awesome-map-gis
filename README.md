@@ -41,11 +41,17 @@ Windows-friendly open-source GIS desktop and related projects. The website is no
 - https://github.com/MapWindow/MapWindow5 ![GitHub stars](https://img.shields.io/github/stars/MapWindow/MapWindow5?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2020%2F06%2F01-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/MapWindow/MapWindow5?style=flat)
 
 ### RustGIS
-Fast, free, open-source GIS written in pure Rust (Apache-2.0) from opengeos — runs as a desktop app (Windows / macOS / Linux) and in the browser via WebAssembly; vector, raster and LiDAR data, 1,000+ geoprocessing tools, layouts, WebAssembly plugins, and a built-in AI assistant. Young but fast-moving project (first release Oct 2026; v0.4.0 adds 3D tilt/terrain and File Geodatabase reading).
+Fast, free, open-source GIS written in pure Rust (Apache-2.0) from opengeos — runs as a desktop app (Windows / macOS / Linux) and in the browser via WebAssembly; vector, raster and LiDAR data, 1,000+ geoprocessing tools, layouts, WebAssembly plugins, and a built-in AI assistant. Young but fast-moving project (first release Oct 2026; v0.6.0 runs geoprocessing in the background with progress/cancel, exports layouts as vector PDF/SVG, and reads CityJSON and cloud-optimized GeoTIFFs in place).
 
 - https://rustgis.app/
 - https://web.rustgis.app/ — browser version
-- https://github.com/opengeos/RustGIS ![GitHub stars](https://img.shields.io/github/stars/opengeos/RustGIS?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F25-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/RustGIS?style=flat)
+- https://github.com/opengeos/RustGIS ![GitHub stars](https://img.shields.io/github/stars/opengeos/RustGIS?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F09-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/RustGIS?style=flat)
+
+### GeoLibre
+Lightweight, cloud-native GIS platform from opengeos, built on MapLibre GL JS, DuckDB and Tauri — runs in the web browser, as a desktop app, on mobile, and inside Jupyter notebooks; plugin marketplace, in-browser geoprocessing via WebAssembly ([geolibre-rust](https://github.com/opengeos/geolibre-rust) ![GitHub stars](https://img.shields.io/github/stars/opengeos/geolibre-rust?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F12-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/geolibre-rust?style=flat)), and an R interface.
+
+- https://geolibre.app/
+- https://github.com/opengeos/GeoLibre ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F08-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/GeoLibre?style=flat)
 
 ## ArcGIS / Esri
 
@@ -167,17 +173,18 @@ Open-source server for OGC services (WMS, WFS, WMTS, and more).
 Fast Rust vector-tile server from the MapLibre project — serves PostGIS tables/functions, PMTiles, MBTiles, COG, GeoJSON, and GeoParquet; includes `martin-cp` for tile generation and `mbtiles` tooling.
 
 - https://maplibre.org/martin/
-- https://github.com/maplibre/martin ![GitHub stars](https://img.shields.io/github/stars/maplibre/martin?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F07-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/maplibre/martin?style=flat)
+- https://github.com/maplibre/martin ![GitHub stars](https://img.shields.io/github/stars/maplibre/martin?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F09-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/maplibre/martin?style=flat)
 
 ### Python geospatial
-GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks; leafmap for interactive mapping and geospatial analysis in Jupyter with minimal code.
+GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks; leafmap for interactive mapping and geospatial analysis in Jupyter with minimal code; GeoAI for applying deep learning (segmentation, object detection, change detection, foundation models) to satellite / aerial imagery.
 
 - https://geopandas.org/
 - https://shapely.readthedocs.io/
 - https://rasterio.readthedocs.io/
 - https://python-visualization.github.io/folium/latest/
 - https://leafmap.org/ — leafmap
-- https://github.com/opengeos/leafmap ![GitHub stars](https://img.shields.io/github/stars/opengeos/leafmap?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F02-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/leafmap?style=flat)
+- https://github.com/opengeos/leafmap ![GitHub stars](https://img.shields.io/github/stars/opengeos/leafmap?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F12-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/leafmap?style=flat)
+- https://github.com/opengeos/geoai ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/opengeos/geoai?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F21-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/geoai?style=flat) — GeoAI: artificial intelligence for geospatial data (PyTorch-based)
 
 ### Formats & tiling
 
@@ -187,6 +194,7 @@ GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks; leafm
 - https://geoparquet.io/ — geoparquet-io (`gpio`): CLI + Python API to convert, validate, and optimize GeoParquet (Hilbert sorting, bbox, partitioning)
 - https://pmtiles.io/ — single-file PMTiles archives
 - https://protomaps.com/ — open map tiles on PMTiles
+- https://github.com/felt/tippecanoe ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/felt/tippecanoe?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F07%2F24-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/felt/tippecanoe?style=flat) — Tippecanoe: build vector tilesets (MBTiles / PMTiles) from large GeoJSON, FlatGeobuf or CSV collections; actively maintained fork by Felt
 - https://maplibre.org/maplibre-tile-spec/ — MapLibre Tile (MLT): column-oriented vector tile format, successor to MVT (announced Jan 2026; supported in MapLibre GL JS / Native)
 - https://h3geo.org/ — Uber H3 hexagonal hierarchical grid
 - https://stacspec.org/ — STAC (SpatioTemporal Asset Catalog): common JSON spec for describing and searching satellite imagery and other geospatial assets (v1.1; also an OGC Community Standard)
@@ -257,6 +265,7 @@ All curated lists maintained by [shvyac](https://github.com/shvyac):
 - [awesome-local-llm](https://github.com/shvyac/awesome-local-llm) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-local-llm?style=flat&label=%E2%AD%90)
 - [awesome-m5stack-arduino](https://github.com/shvyac/awesome-m5stack-arduino) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-m5stack-arduino?style=flat&label=%E2%AD%90)
 - [awesome-map-gis](https://github.com/shvyac/awesome-map-gis) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-map-gis?style=flat&label=%E2%AD%90)
+- [awesome-mcp-ai](https://github.com/shvyac/awesome-mcp-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-mcp-ai?style=flat&label=%E2%AD%90)
 - [awesome-meshless-cae](https://github.com/shvyac/awesome-meshless-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-meshless-cae?style=flat&label=%E2%AD%90)
 - [awesome-online-services](https://github.com/shvyac/awesome-online-services) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-online-services?style=flat&label=%E2%AD%90)
 - [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90)

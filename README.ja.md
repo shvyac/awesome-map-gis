@@ -41,11 +41,17 @@ Windows で使いやすいオープンソースのデスクトップ GIS と関�
 - https://github.com/MapWindow/MapWindow5 ![GitHub stars](https://img.shields.io/github/stars/MapWindow/MapWindow5?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2020%2F06%2F01-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/MapWindow/MapWindow5?style=flat)
 
 ### RustGIS
-opengeos による純 Rust 製の高速・無料・オープンソース GIS（Apache-2.0）— デスクトップアプリ（Windows / macOS / Linux）としても、WebAssembly でブラウザ上でも動作。ベクター・ラスター・LiDAR データ、1,000 以上のジオプロセシングツール、レイアウト、WebAssembly プラグイン、AI アシスタントを内蔵。若いが開発が活発なプロジェクト（初リリースは 2026年10月、v0.4.0 で 3D の傾き表示／地形と File Geodatabase の読み込みに対応）。
+opengeos による純 Rust 製の高速・無料・オープンソース GIS（Apache-2.0）— デスクトップアプリ（Windows / macOS / Linux）としても、WebAssembly でブラウザ上でも動作。ベクター・ラスター・LiDAR データ、1,000 以上のジオプロセシングツール、レイアウト、WebAssembly プラグイン、AI アシスタントを内蔵。若いが開発が活発なプロジェクト（初リリースは 2026年10月、v0.6.0 でジオプロセシングのバックグラウンド実行（進捗表示・キャンセル）、レイアウトのベクター PDF / SVG 出力、CityJSON と Cloud Optimized GeoTIFF の直接読み込みに対応）。
 
 - https://rustgis.app/
 - https://web.rustgis.app/ — ブラウザ版
-- https://github.com/opengeos/RustGIS ![GitHub stars](https://img.shields.io/github/stars/opengeos/RustGIS?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F25-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/RustGIS?style=flat)
+- https://github.com/opengeos/RustGIS ![GitHub stars](https://img.shields.io/github/stars/opengeos/RustGIS?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F09-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/RustGIS?style=flat)
+
+### GeoLibre
+opengeos による軽量なクラウドネイティブ GIS プラットフォーム。MapLibre GL JS・DuckDB・Tauri をベースに、Web ブラウザ、デスクトップアプリ、モバイル、Jupyter ノートブック上で動作。プラグインマーケットプレイス、WebAssembly によるブラウザ内ジオプロセシング（[geolibre-rust](https://github.com/opengeos/geolibre-rust) ![GitHub stars](https://img.shields.io/github/stars/opengeos/geolibre-rust?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F12-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/geolibre-rust?style=flat)）、R インターフェースも提供。
+
+- https://geolibre.app/
+- https://github.com/opengeos/GeoLibre ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F08-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/GeoLibre?style=flat)
 
 ## ArcGIS / Esri
 
@@ -167,17 +173,18 @@ OGC サービス（WMS、WFS、WMTS など）を提供するオープンソー�
 MapLibre プロジェクトの高速な Rust 製ベクタータイルサーバー — PostGIS のテーブル／関数、PMTiles、MBTiles、COG、GeoJSON、GeoParquet を配信。タイル生成用の `martin-cp` と `mbtiles` ツールも同梱。
 
 - https://maplibre.org/martin/
-- https://github.com/maplibre/martin ![GitHub stars](https://img.shields.io/github/stars/maplibre/martin?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F07-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/maplibre/martin?style=flat)
+- https://github.com/maplibre/martin ![GitHub stars](https://img.shields.io/github/stars/maplibre/martin?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F09-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/maplibre/martin?style=flat)
 
 ### Python 地理空間ライブラリ
-解析や手軽な地図ノートブック向けの GeoPandas、Shapely、Rasterio、Folium。leafmap は Jupyter 上で最小限のコードによるインタラクティブな地図作成と地理空間解析を行える。
+解析や手軽な地図ノートブック向けの GeoPandas、Shapely、Rasterio、Folium。leafmap は Jupyter 上で最小限のコードによるインタラクティブな地図作成と地理空間解析を行える。GeoAI は衛星・航空画像に深層学習（セグメンテーション、物体検出、変化検出、基盤モデル）を適用する。
 
 - https://geopandas.org/
 - https://shapely.readthedocs.io/
 - https://rasterio.readthedocs.io/
 - https://python-visualization.github.io/folium/latest/
 - https://leafmap.org/ — leafmap
-- https://github.com/opengeos/leafmap ![GitHub stars](https://img.shields.io/github/stars/opengeos/leafmap?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F02-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/leafmap?style=flat)
+- https://github.com/opengeos/leafmap ![GitHub stars](https://img.shields.io/github/stars/opengeos/leafmap?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F12-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/leafmap?style=flat)
+- https://github.com/opengeos/geoai ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/opengeos/geoai?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F21-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/opengeos/geoai?style=flat) — GeoAI：地理空間データのための AI（PyTorch ベース）
 
 ### フォーマットとタイル
 
@@ -187,6 +194,7 @@ MapLibre プロジェクトの高速な Rust 製ベクタータイルサーバ�
 - https://geoparquet.io/ — geoparquet-io（`gpio`）：GeoParquet の変換・検証・最適化（Hilbert ソート、bbox、パーティショニング）を行う CLI + Python API
 - https://pmtiles.io/ — 単一ファイルの PMTiles アーカイブ
 - https://protomaps.com/ — PMTiles によるオープンな地図タイル
+- https://github.com/felt/tippecanoe ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/felt/tippecanoe?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F07%2F24-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/felt/tippecanoe?style=flat) — Tippecanoe：大量の GeoJSON / FlatGeobuf / CSV からベクタータイルセット（MBTiles / PMTiles）を生成。Felt が保守する活発なフォーク
 - https://maplibre.org/maplibre-tile-spec/ — MapLibre Tile（MLT）：MVT の後継となる列指向ベクタータイル形式（2026年1月発表、MapLibre GL JS / Native が対応）
 - https://h3geo.org/ — Uber H3 六角形階層グリッド
 - https://stacspec.org/ — STAC（SpatioTemporal Asset Catalog）：衛星画像などの地理空間アセットを記述・検索するための共通 JSON 仕様（v1.1、OGC Community Standard でもある）
@@ -257,6 +265,7 @@ WPF / UWP / WinUI の地図 UI 向け XAML Map Control。
 - [awesome-local-llm](https://github.com/shvyac/awesome-local-llm) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-local-llm?style=flat&label=%E2%AD%90)
 - [awesome-m5stack-arduino](https://github.com/shvyac/awesome-m5stack-arduino) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-m5stack-arduino?style=flat&label=%E2%AD%90)
 - [awesome-map-gis](https://github.com/shvyac/awesome-map-gis) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-map-gis?style=flat&label=%E2%AD%90)
+- [awesome-mcp-ai](https://github.com/shvyac/awesome-mcp-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-mcp-ai?style=flat&label=%E2%AD%90)
 - [awesome-meshless-cae](https://github.com/shvyac/awesome-meshless-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-meshless-cae?style=flat&label=%E2%AD%90)
 - [awesome-online-services](https://github.com/shvyac/awesome-online-services) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-online-services?style=flat&label=%E2%AD%90)
 - [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90)
