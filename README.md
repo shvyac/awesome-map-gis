@@ -229,6 +229,7 @@ GeoPandas, Shapely, Rasterio, Folium for analysis and quick map notebooks; leafm
 - https://earthengine.google.com/ — Google Earth Engine
 - https://developers.google.com/earth-engine
 - https://www.hotosm.org/ — Humanitarian OpenStreetMap Team
+- https://h1dr4.dev/map — H1DR4 Incident Map: free MapLibre viewer for published Police.uk street-level crime records in England and Wales. The source reports approximate locations and coverage varies by force and month.
 
 ## .NET / XAML map control
 
